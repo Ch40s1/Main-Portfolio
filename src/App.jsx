@@ -6,10 +6,10 @@ function App() {
   return (
     <>
       <body>
-        <nav>
+        <nav className='flex justify-between mx-32 sticky top-0 text-mainText'>
           <Nav />
         </nav>
-        <main>
+        <main className='flex w-screen h-screen items-center'>
           <Outlet />
         </main>
       </body>
