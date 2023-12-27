@@ -9,7 +9,7 @@ function App() {
         <nav className='flex justify-between mx-32 sticky top-0 text-mainText'>
           <Nav />
         </nav>
-        <main className='flex w-screen h-screen items-center'>
+        <main className=' flex w-screen h-screen items-center'>
           <Outlet />
         </main>
       </body>
