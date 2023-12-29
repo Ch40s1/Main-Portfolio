@@ -1,23 +1,8 @@
-import carPic from './img/carApp.png'
-import avatar from './img/avatar.png'
-import githubSvg from './img/icons/github.svg'
+import carPic from './img/carApp.png';
+import githubSvg from './img/icons/github.svg';
+import NavBar from'./components/Nav';
+import Home from './pages/Home';
 
-function NavBar() {
-  return (
-    <>
-      <div>
-        {/* there will a box that will animate as if tho typing */}
-        {/* ch40s will be a link to my github and daniel to my linked in*/}
-        <h1><a href='https://github.com/Ch40s1'>ch40s1</a>@Daniels-Portfolio ~ % </h1>
-      </div>
-      <div>
-        <a href='#Contact'>Contact</a>
-        <a href='#About' >About</a>
-        <a href='#Projects' >Projects</a>
-      </div>
-    </>
-  )
-}
 /* eslint-disable react/prop-types */
 function HeroContainer({ title, description }) {
   return (
@@ -27,30 +12,6 @@ function HeroContainer({ title, description }) {
       </div>
       <div>
         {description}
-      </div>
-    </>
-  )
-}
-
-function Home() {
-  return (
-    <>
-      <div>
-        <HeroContainer
-          title={
-            <h1>
-              Full-Stack Web Developer
-            </h1>
-          }
-          description={
-            <p>
-              Creating websites.
-            </p>
-          }
-        />
-      </div>
-      <div>
-        <img src={avatar} width={300}/>
       </div>
     </>
   )
@@ -199,10 +160,10 @@ function App() {
         <NavBar />
       </header>
       <main>
-        <section>
+        <section className='h-screen'>
           <Home />
         </section>
-        <section id='About'>
+        <section id='Contact'>
           <About />
           <Skills />
         </section>
