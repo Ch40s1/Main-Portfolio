@@ -9,6 +9,7 @@ export default {
       fontSize: {
         sm: '0.8rem',
         base: '4rem',
+        lg: '40px',
         xl: '3rem',
         '2xl': '1.563rem',
         '3xl': '1.953rem',
@@ -18,10 +19,15 @@ export default {
       colors: {
         'mainBlack': '#141416',
         'mainText': '#f0f8ff',
-        'offText': '#9c27b0'
+        'offText': '#9c27b0',
+
       },
       fontFamily: {
-        body: ['Source Sans 3'],
+        'body': ['Source Sans 3'],
+        'sans': ['Roboto', 'sans-serif']
+      },
+      fontWeight: {
+        thin: '100',
       }
     },
   },
