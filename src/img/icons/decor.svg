@@ -1,0 +1,22 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded Rectangle 1 -->
+ <rect x="0" y="25" width="300" height="50" rx="10" ry="10" fill="#F4A949" />
+  <rect x="100" y="25" width="90" height="50" rx="15" ry="15" fill="#1C5F9A" />
+  <rect x="200" y="25" width="" height="50" rx="20" ry="20" fill="#9C27B0" />
+  <rect x="350" y="25" width="120" height="50" rx="20" ry="20" fill="#F4A949" />
+  <rect x="500" y="25" width="180" height="50" rx="25" ry="25" fill="#F4A949" />
+
+  <rect x="0" y="90" width="60" height="50" rx="10" ry="10" fill="#F4A949" />
+  <rect x="100" y="90" width="90" height="50" rx="15" ry="15" fill="#1C5F9A" />
+  <rect x="200" y="90" width="120" height="50" rx="20" ry="20" fill="#9C27B0" />
+  <rect x="350" y="90" width="120" height="50" rx="20" ry="20" fill="#F4A949" />
+  <rect x="500" y="90" width="180" height="50" rx="25" ry="25" fill="#F4A949" />
+
+  <!-- Additional Random Rectangles -->
+  <rect x="0" y="155" width="60" height="50" rx="10" ry="10" fill="#F4A949" />
+  <rect x="100" y="155" width="90" height="50" rx="15" ry="15" fill="#1C5F9A" />
+  <rect x="200" y="155" width="120" height="50" rx="20" ry="20" fill="#9C27B0" />
+  <rect x="350" y="155" width="120" height="50" rx="20" ry="20" fill="#F4A949" />
+  <rect x="500" y="155" width="180" height="50" rx="25" ry="25" fill="#F4A949" />
+
+</svg>
