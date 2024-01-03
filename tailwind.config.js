@@ -28,6 +28,9 @@ export default {
       },
       fontWeight: {
         thin: '100',
+      },
+      backgroundImage: {
+        'techWall': "url('./src/img/programming.png')"
       }
     },
   },

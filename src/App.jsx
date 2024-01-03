@@ -1,4 +1,5 @@
 import carPic from './img/carApp.png';
+import blockSVG from './img/icons/decor.svg'
 import githubSvg from './img/icons/github.svg';
 import NavBar from'./components/Nav';
 import Home from './pages/Home';
@@ -148,6 +149,7 @@ function GithubSVG() {
   return (
     <>
       <a href='https://github.com/Ch40s1'><img src={githubSvg} width={300}/></a>
+      <img src={blockSVG} width={300}/>
     </>
   )
 }
@@ -163,7 +165,7 @@ function App() {
         <section className='h-screen'>
           <Home />
         </section>
-        <section id='Contact'>
+        <section id='About'>
           <About />
           <Skills />
         </section>

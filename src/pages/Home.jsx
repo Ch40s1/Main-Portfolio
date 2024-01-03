@@ -24,6 +24,7 @@ function Home() {
             }
             desStyle={'my-6'}
             anchorDes={'About me >'}
+            anchorHref={'#About'}
           />
         </div>
       </div>
