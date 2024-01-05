@@ -28,7 +28,7 @@ function NavBar() {
       <div className='flex p-5 justify-between items-center'>
         <div>
           {/* there will a box that will animate as if tho typing */}
-          <h1>
+          <h1 className="lg:text-base">
             <a href='https://github.com/Ch40s1' className="text-offText underline">ch40s1</a>
             @Daniels-Portfolio ~ %
             <span style={styles.typeEffect} className="font-bold">
@@ -37,7 +37,7 @@ function NavBar() {
           </h1>
         </div>
         <nav className="border-solid border-white border-2 px-4 py-2 rounded-lg">
-          <a href='#Contact'>Contact</a>
+          <a href='https://www.linkedin.com/in/daniel-zarate-66816113b/' target="blank">Contact</a>
         </nav>
       </div>
 

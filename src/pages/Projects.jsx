@@ -5,7 +5,7 @@ function Projects() {
 
   return (
     <>
-      <div>
+      <div className="lg:flex lg:flex-wrap lg:py-8">
         <div>
           <ProjectCards
             name={'WheelsOnDemand:'}
