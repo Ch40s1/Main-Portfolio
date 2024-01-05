@@ -4,15 +4,18 @@ function ProjectCards({ name, imageUrl, techUsed, description, techDescription }
     <>
       <div className="px-4 mb-5">
         <div>
-          <div className="text-lg font-extrabold tracking-wide leading-10 mb-4">
+          <h1 className="text-lg lg:text-2xl font-extrabold tracking-wide leading-10 mb-4">
             {name}
-          </div>
+          </h1>
           <div>
-            <p className="py-3">
+            <p className="py-3 lg:text-base">
               {description}
             </p>
             <div className="pb-6">
-              <h3>Built with: {techDescription}</h3>
+              <h3 className="lg:text-base">
+                Built with:
+                {techDescription}
+              </h3>
               <img src={`https://skillicons.dev/icons?i=${techUsed}`} />
             </div>
           </div>

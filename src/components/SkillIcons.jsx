@@ -32,6 +32,14 @@ function SkillIcons() {
     {
       id: 8,
       stack: 'nodejs'
+    },
+    {
+      id: 9,
+      stack: 'graphql'
+    },
+    {
+      id: 10,
+      stack: 'apollo'
     }
   ];
   return (

@@ -8,7 +8,7 @@ function HeroContainer({ title, description, titleStyle, desStyle, anchorDes, an
         {description}
       </div>
       <div>
-        <a href={anchorHref} className="text-offText">{anchorDes}</a>
+        <a href={anchorHref} className="text-offText lg:text-base">{anchorDes}</a>
       </div>
     </>
   )
