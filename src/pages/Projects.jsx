@@ -10,7 +10,7 @@ function Projects() {
         <div>
           <ProjectCards
             name={'WheelsOnDemand:'}
-            description={' An e-commerce site for renting cars.'}
+            description={'An e-commerce site for renting cars.'}
             imageUrl={wheelOD}
             techUsed={'react,js,mongodb,apollo,graphql,express,nodejs'}
             techDescription={'Javascript, React, Mongodb, Apollo/Server, Graphql, express, and nodejs'}
