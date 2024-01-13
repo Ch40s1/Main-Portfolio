@@ -1,18 +1,20 @@
 import ProjectCards from "../components/ProjectCards";
 import carPic from '../img/carApp.png'
+import wheelOD from '../img/wheelsondemand.png'
 
 function Projects() {
 
   return (
     <>
-      <div className="lg:flex lg:flex-wrap lg:py-8">
+      <div className="lg:flex  lg:flex-wrap lg:py-8">
         <div>
           <ProjectCards
             name={'WheelsOnDemand:'}
             description={' An e-commerce site for renting cars.'}
-            imageUrl={carPic}
+            imageUrl={wheelOD}
             techUsed={'react,js,mongodb,apollo,graphql,express,nodejs'}
             techDescription={'Javascript, React, Mongodb, Apollo/Server, Graphql, express, and nodejs'}
+            webLink={"https://wheels-on-demand-83c5de82a3da.herokuapp.com/"}
             />
         </div>
 
