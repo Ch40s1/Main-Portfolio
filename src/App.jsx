@@ -19,7 +19,7 @@ function App() {
           <About />
           <Skills />
         </section>
-        <section id='Projects' className='pt-30'>
+        <section id='Projects' className='sm:pt-20 lg:pt-40'>
           <Projects />
         </section>
         <section className={`sticky bottom-0`}>

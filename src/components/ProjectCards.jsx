@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-function ProjectCards({ name, imageUrl, techUsed, description, techDescription }) {
+function ProjectCards({ name, imageUrl, techUsed, description, techDescription, webLink }) {
   return (
     <>
       <div className="px-4 mb-5">
@@ -23,6 +23,7 @@ function ProjectCards({ name, imageUrl, techUsed, description, techDescription }
 
         <div>
           <img src={imageUrl} width={500} />
+          <a href={webLink} className="text-offText lg:text-base" target="blank">Website link</a>
         </div>
       </div>
     </>
