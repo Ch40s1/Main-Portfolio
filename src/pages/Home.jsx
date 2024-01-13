@@ -6,7 +6,7 @@ function Home() {
     <>
       <div className='flex flex-col lg:flex-row lg:pt-10 lg:pl-8 lg:gap-60'>
         <div className='self-center p-9 lg:hidden'>
-          <img src={avatar} width={300} className='rounded-xl'/>
+          <img src='/catanme.png' width={300} className='rounded-xl'/>
         </div>
         <div className='px-4 lg:w-3/6 lg:pt-36'>
           <HeroContainer
@@ -28,7 +28,7 @@ function Home() {
           />
         </div>
         <div className='hidden self-center p-9 lg:block lg:self-center'>
-          <img src={avatar} width={500} className='rounded-xl'/>
+          <img src="/catanme.png" width={500} className='rounded-xl'/>
         </div>
       </div>
     </>
