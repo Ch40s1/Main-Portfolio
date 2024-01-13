@@ -6,7 +6,7 @@ function Projects() {
 
   return (
     <>
-      <div className="lg:flex  lg:flex-wrap lg:py-8">
+      <div className="lg:flex  lg:flex-wrap lg:py-8 justify-center">
         <div>
           <ProjectCards
             name={'WheelsOnDemand:'}
@@ -18,7 +18,7 @@ function Projects() {
             />
         </div>
 
-        <div>
+        {/* <div>
           <ProjectCards
             name={'Project2:'}
             description={'This is a placeholder for a future project'}
@@ -36,7 +36,7 @@ function Projects() {
             techUsed={'java,react'}
             techDescription={'Javascript, React, Mongodb, Apollo/Server, Graphql, express, and nodejs'}
             />
-        </div>
+        </div> */}
       </div>
     </>
   )
