@@ -3,7 +3,7 @@ import HeroContainer from "../components/HeroContainer";
 function About() {
   return (
     <>
-      <div className="lg:flex lg:flex-col lg:items-center lg:h-1/2 lg:justify-center">
+      <div className="lg:flex lg:flex-col lg:items-center py-10 lg:justify-center">
         <div className="py-4 lg:w-3/6 lg:flex lg:flex-col lg:items-center lg:justify-center">
           <HeroContainer
             title={

@@ -1,12 +1,11 @@
 import ProjectCards from "../components/ProjectCards";
-import carPic from '../img/carApp.png'
 import wheelOD from '../img/wheelsondemand.png'
 
 function Projects() {
 
   return (
     <>
-      <div className="lg:flex  lg:flex-wrap lg:py-8 justify-center">
+      <div className="lg:flex  lg:flex-wrap lg:py-8 justify-center pt-20">
         <div>
           <ProjectCards
             name={'WheelsOnDemand:'}
