@@ -1,6 +1,13 @@
 import HeroContainer from '../components/HeroContainer';
 import catnme from '../img/catanme.png'
 
+//this is going to be the start of the new home page
+// i will be using the figma design to create the home page
+// my plan is to start on the nav bar and work my way down
+// i will be using tailwind css to style the page
+// currently in my first sprint i will be working on the home page and the about page
+
+
 function Home() {
   return (
     <>
