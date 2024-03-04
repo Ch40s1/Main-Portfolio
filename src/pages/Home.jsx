@@ -20,20 +20,16 @@ function Home() {
         <div className='px-4 lg:w-3/6 lg:pt-36'>
           <HeroContainer
             title={
-              <h1 className='text-lg lg:text-2xl font-extrabold tracking-wide leading-10 lg:leading-12'>
+              <h1 className='text-lg lg:text-[100px] font-extrabold tracking-wide leading-[7rem]'>
                 Full-Stack Web <br /> Developer
               </h1>
             }
             description={
               <p className='font-light lg:text-base'>
-                Creating websites. Solving intricate design problems and crafting intelligent user interfaces.
-                Dedicated to expanding my knowledge by delving into frameworks and pursuing
-                certifications to better my skills and contribute meaningfully to innovative teams.
+                I create simple to use websites and I love what I do.
               </p>
             }
             desStyle={'my-6'}
-            anchorDes={'About me >'}
-            anchorHref={'#About'}
           />
         </div>
         <div className='hidden self-center p-9 lg:block lg:self-center'>
